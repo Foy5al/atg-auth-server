@@ -70,6 +70,10 @@ async function run() {
       res.json(result);
     });
 
+    app.get("/user", async (req, res) => {
+      res.send("<h1>Social server is running in another tab</h1>");
+    });
+
     //post router
     //get api
     /* app.get("/task", async (req, res) => {
