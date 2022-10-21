@@ -173,7 +173,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Social server is running");
+  res.send("<h1>Social server is running</h1>");
 });
 
 app.listen(port, () => {
