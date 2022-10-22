@@ -48,7 +48,7 @@ async function run() {
         if (password === cursor?.password) {
           res.json(cursor?.email);
         } else {
-          res.json("Wrong Password Check your Password and submit again");
+          res.json("Wrong Password");
         }
       } else {
         res.json("Mail not found Check your Mail address and submit again");
